@@ -1,0 +1,199 @@
+{
+	"name": "ei06125-color-theme",
+	"type": "dark",
+	"colors": {
+	  "editor.background": "#212121",
+	  "sideBar.background": "#212121",
+	  "activityBar.background": "#212121",
+	  "editor.foreground": "#cccccc",
+	  "sideBar.foreground": "#bbbbbb",
+	  "sideBarTitle.foreground": "#bbbbbb",
+	  "activityBarBadge.background": "#007acc"
+	},
+	"tokenColors": [
+	  {
+		"name": "Comments",
+		"scope": [
+		  "comment",
+		  "punctuation.definition.comment"
+		],
+		"settings": {
+		  "foreground": "#646464",
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"name": "Keywords",
+		"scope": [
+		  "keyword",
+		  "storage.type",
+		  "storage.modifier"
+		],
+		"settings": {
+		  "foreground": "#aaf"
+		}
+	  },
+	//   {
+	// 	"name": "Constants language",
+	// 	"scope": [
+	// 	  "constant.language"
+	// 	],
+	// 	"settings": {
+	// 	  "foreground": "#5af"
+	// 	}
+	//   },
+	  {
+		"name": "Constants numeric",
+		"scope": [
+		  "constant.numeric"
+		],
+		"settings": {
+		  "foreground": "#ddd"
+		}
+	  },
+	  {
+		"name": "Literal characters like /n ",
+		"scope": [
+		  "constant.character"
+		],
+		"settings": {
+		  "foreground": "#0c4"
+		}
+	  },
+	  {
+		"name": "Constants other",
+		"scope": [
+		  "constant.other"
+		],
+		"settings": {
+		  "foreground": "#dd5"
+		}
+	  },
+	  {
+		"name": "Strings",
+		"scope": [
+		  "string",
+		  "string.quoted",
+		  "string.quoted.double.python",
+		  "string.quoted.single.python"
+		],
+		"settings": {
+		  "foreground": "#0c4"
+		}
+	  },
+	  {
+		"name": "Type Names",
+		"scope": [
+		  "entity.name.type",
+		  "entity.name.struct",
+		  "support.class",
+		],
+		"settings": {
+		  "foreground": "#fc0"
+		}
+	  },
+	//   {
+	// 	"name": "Support Class Cpp",
+	// 	"scope": [
+	// 	//   "entity.name.type.cpp",
+	// 	   "support.class.cpp",
+	// 	],
+	// 	"settings": {
+	// 	  "foreground": "#000"
+	// 	}
+	//   },
+	  {
+		"name": "Entity Name Type Cpp",
+		"scope": [
+		  "entity.name.type.cpp",
+		//   "support.class.cpp",
+		],
+		"settings": {
+		  "foreground": "#fa0"
+		}
+	  },
+	  {
+		"name": "Type Names Python",
+		"scope": [
+		  "entity.name.class.python",
+		  "support.type.python"
+		],
+		"settings": {
+		  "foreground": "#aaf"
+		}
+	  },
+	  {
+		"name": "Function Names",
+		"scope": [
+		  "entity.name.function",
+		  "meta.function-call",
+		  "support.function",
+		//   "entity.name.function.python",
+		  "meta.function-call.python"
+		],
+		"settings": {
+		  "foreground": "#f70"
+		//   "foreground": "#FFCB6B"
+		}
+	  },
+	  {
+		"name": "Function Names 2",
+		"scope": [
+		//   "entity.name.function",
+		//   "meta.function-call",
+		//   "support.function",
+		//   "entity.name.function.python",
+		//   "meta.function-call.python"
+		],
+		"settings": {
+		  "foreground": "#000"
+		//   "foreground": "#FFCB6B"
+		}
+	  },
+	  {
+		"name": "Variables (this, self)",
+		"scope": [
+		   "variable",
+		//   "variable.other",
+		//   "variable.parameter",
+		//   "variable.other.readwrite"
+		],
+		"settings": {
+		  "foreground": "#c40"
+		}
+	  },
+	  {
+		"name": "Variables readwrite",
+		"scope": [		
+		   "variable.other.readwrite"
+		],
+		"settings": {
+		  "foreground": "#000"
+		}
+	  },
+	  {
+		"name": "Variables || other",
+		"scope": [
+		   "variable.other",
+		   "variable.parameter",
+		],
+		"settings": {
+		  "foreground": "#cccccc"
+		}
+	  },
+	  {
+		"name": "Operators & Punctuation",
+		"scope": [
+		  "keyword.operator",
+		  "punctuation",
+		  "meta.brace",
+		  "meta.delimiter",
+		  "keyword.operator.python"
+		],
+		"settings": {
+		  "foreground": "#aaf"
+		}
+	  }
+	]
+  }
+ 

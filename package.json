@@ -1,10 +1,15 @@
 {
   "name": "ei06125-color-theme",
   "displayName": "ei06125-color-theme",
-  "description": "A color theme for ei06125",
-  "version": "0.0.1",
+  "description": "The VS Code theme used by ei06125",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.99.0"
+  },
+  "publisher": "ei06125",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ei06125/ei06125-vscode-theme.git™"
   },
   "categories": [
     "Themes"
@@ -14,7 +19,7 @@
       {
         "label": "ei06125-color-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/ei06125-color-theme-color-theme.json"
+        "path": "./themes/ei06125-color-theme.json"
       }
     ]
   }
