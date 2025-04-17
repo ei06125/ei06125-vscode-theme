@@ -1,0 +1,21 @@
+{
+  "name": "ei06125-color-theme",
+  "displayName": "ei06125-color-theme",
+  "description": "A color theme for ei06125",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ei06125-color-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ei06125-color-theme-color-theme.json"
+      }
+    ]
+  }
+}
